@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Ṕráctico N°2</title>
+</head>
+<body>
+    <h1>Trabajo Práctico N°2: URL</h1>
+    <h2>Estudiante: Emanuel Olivera</h2>
+    <h2>Curso: 4°3°</h2>
+    <h2>Consignas:</h2>
+    <h3>1.¿Qué es una URL?</h3>
+    <p>Una URL (Uniform Resource Locator) es una cadena de texto que indica donde puede encontrarse un recurso (página, imagen, sonido, video, etc) en Internet. También es conocido como Dirección Web o Enlace.</p>
+    <img src="URL.png" alt="">
+    <h3>2. ¿Qué es una url absoluta?</h3>
+    <p>Una dirección URL absoluta contiene toda la información necesaria para localizar un recurso. Por ejemplo:</p>
+    <p><b>https://developer.mozilla.org/es/docs/Learn</b></p>
+    <h3>3. ¿Qué es una url relativa?</h3>
+    <p>Una dirección URL relativa localiza un recurso mediante una dirección URL absoluta como punto de partida. Por ejemplo:</p>
+    <p><b>Skills/Infrastructure/Understanding_URLs</b></p>
+    <img src="URLs Relativas y Absolutas.png" alt="" width="1000px">
+    <h3>4. ¿Cuál es la diferencia entre una url relativa y una url absoluta?</h3>
+    <p>Podemos diferenciar entre una URL absoluta y una URL relativa mirando solo la parte de ruta de la URL. Si la parte de ruta de la URL comienza con el carácter "/", se trata de una URL relativa, y el navegador buscará ese recurso desde la raíz superior del servidor, sin referencia al contexto dado por el documento actual. Si, en cambio, la parte de ruta comienza con el protocolo web (http/https) será una URL absoluta.</p>
+    <h3>5. Crear tres enlaces absolutos a tres recursos. Los recursos deben ser PDF, PNG, TXT</h3>
+    <p><a href="http://www.bnm.me.gov.ar/giga1/documentos/EL007131.pdf"> PDF/PDF sobre URL</a></p>
+    <p><a href="https://cdn-icons-png.flaticon.com/512/1271/1271847.png"> PNG/ Imagen de un buscador </a></p>
+    <p><a href="https://vimhelp.org/filetype.txt.html"> TXT/ Archivo de Texto Plano</a></p>
+
+    <h3>6. ¿Qué es un directorio? ¿qué relación hay con una carpeta?</h3>
+    <p>Un directorio es un tipo exclusivo de archivo que sólo contiene la información necesaria para acceder a archivos o a otros directorios. En otras palabras, es un contenedor virtual en el que se almacenan una agrupación de archivos y otros subdirectorios, accediendo a su contenido, a su proposito o a cualquier criterio que decida el usuario. Directorio es su nombre técnico, pero es comúnmente conocido como "carpeta"</p>
+    <img src="Carpetas y Directorios.webp" alt="">
+    <h3>7. En la estructura de un proyecto web, ¿a qué se llama directorio raíz? ¿Con qué símbolo se representa?</h3>
+    <p>El directorio raíz es el directorio principal que, en los sistemas operativos, contiene todos los demás directorios y archivos, lo cuales operan con lo que se conoce como un sistema jerárquico y se designan con una barra diagonal y/o inclinada (/).</p>
+    <img src="Directorio raiz.png" alt="">
+    <h3>8. Un archivo XLS que deseamos enlazar se encuentra alojado en el servidor de nuestra institución educativa, dentro de la carpeta de recursos compartidos llamada "documentos". Dentro de esta carpeta, hay otra subcarpeta llamada "excel", donde se encuentra específicamente el archivo que necesitamos, llamado "datos_estudiantes.xls". Sabiendo que el protocolo utilizado es https y nuestra institución es el CET Nº30. Armar la url absoluta para dicho archivo.</h3>
+    <p><b>https://campus.cet30.edu.ar/documentos/excel/datos_estudiantes.xls</b></p>
+    <h3>9. Una empresa cuyo dominio es xyzlt.com tiene su logo en archivo gif. El logo está identificado bajo el nombre logo. Se encuentra en un host llamado data. Todos los archivos multimedia están en un directorio llamado asset que organiza dentro según el tipo de archivo, para imágenes se utiliza img, para pdf se utiliza pdf y para audios se utiliza audios. Armar la url absoluta.</h3>
+    <p><b>https://xyzlt.com/data/asset/img/logo.gif</b></p>
+    <h3>10. ¿Cuál es el propósito de la etiqueta anchor?</h3>
+    <p>La etiqueta anchor nos permite crear un enlace (hipervínculo) a otra página web y/o un recurso ubicado en el mismo proyecto u en otro servidor web. Este etiqueta es de mucha importancia ya que todos los enlaces se realizan con ella.</p>
+    <img src="Ejemplo Anchor.png" alt="">
+    <h3>11.¿Qué atributo se utiliza en la etiqueta anchor para especificar la URL a la que debe enlazar?</h3>
+    <p>El atributo utilizado para especificar la URL a la que se debe enlazar se llama <b>href</b></p>
+    <img src="Anchor.png" alt="" width="1000px">
+    <img src="href links.svg" alt=""width="800px">
+    <h3>12. ¿Qué sucede si el atributo "href" en la etiqueta anchor está vacío?</h3>
+    <p>Si el atributo "href" en la etiqueta anchor está vacío, se creará un enlace de marcador de posición, que se parece a un enlace tradicional, pero que no dirige a algún lugar. </p>
+    <h3>13. ¿Cuál es el uso del atributo "target" en la etiqueta anchor y cuáles son los posibles valores que puede tener?</h3>
+    <p>El atributo "target" especifica en donde desplegar la URL enlazada. Es un nombre (name of), o palabra clave (keyword for), un contexto de navegación (browsing context): una pestaña, ventana, o &lt;iframe&gt;.</p>
+    <h3>14. Entonces ¿qué es un hipervínculo?</h3>
+    <p>Un enlace de hipertecto o <b>hipervínculo</b> es un texto que contiene un enlace a otras páginas, documentos, recursos, etc. Al hacer clic en él, accederemos automáticamente al enlace que contiene.</p>
+    <img src="Enlace.png" alt="">
+</body>
+</html>
+
